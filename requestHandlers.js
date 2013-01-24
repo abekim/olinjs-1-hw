@@ -13,7 +13,8 @@ function start(response) {
     '<link href="bootystrap.css" rel="stylesheet">'+
     '</head>'+
     '<body>'+
-    '<h1>Choose a .png file to upload to the server.</h1>'+
+    '<h1>Abe Kim - hw 1 - Olin.JS</h1>'+
+    '<h3>Choose a .png file to upload to the server.</h3>'+
     '<form action="/upload" enctype="multipart/form-data" '+
     'method="post">'+
     '<input type="file" name="upload" multiple="multiple">'+
