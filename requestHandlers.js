@@ -9,8 +9,10 @@ function start(response) {
     '<head>'+
     '<meta http-equiv="Content-Type" '+
     'content="text/html; charset=UTF-8" />'+
+    '<title>Abe Kim - hw 1 - Olin.JS</title>'+
     '</head>'+
     '<body>'+
+    '<p>Choose a .png file to upload to the server.</p>'+
     '<form action="/upload" enctype="multipart/form-data" '+
     'method="post">'+
     '<input type="file" name="upload" multiple="multiple">'+
